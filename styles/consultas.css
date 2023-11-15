@@ -1,0 +1,103 @@
+.consultas {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultas__box {
+    padding: 1em;
+    margin: 0.5em 1em;
+    background-color: var(--branco);
+    border-radius: 8px;
+}
+
+.consultas__data {
+    font-weight: 700;
+    margin: 2em 0 1em 1em;
+}
+
+.consultas__box-superior {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75em;
+}
+
+
+.consultas__intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consultas__img {
+    border-radius: 50%;
+    width: 10vw;
+}
+
+.consultas__infos {
+    margin-left: 1em;
+}
+
+.consultas__localizacao {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 0.5em;
+    align-items: center;
+}
+
+.consultas__nome {
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.consultas__local {
+    font-size: 0.75rem;
+    color: var(--cinza);
+}
+
+.consultas__chat-teste {
+    background: var(--cinza-claro);
+    padding: 0.75em;
+    border-radius: 50%;
+    
+}
+
+.consultas__horario {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.consultas__botao {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.875em;
+}
+
+.consultas__botao-video {
+    background-color: var(--laranja);
+    padding: 1em 1.5em;
+    border-radius: 8px;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.consultas__botao-audio {
+    background-color: var(--branco);
+    padding: 1em 1.5em;
+    color: var(--preto);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    border: 1px solid var(--cor-borda);
+}
+
+
+.consultas__botao-endereco {
+    color: var(--branco);
+    text-decoration: none;
+    background-color: var(--azul);
+    padding: 1em 6.5em;
+    margin: auto;
+    border-radius: 8px;
+}

@@ -1,0 +1,26 @@
+@import url("/styles/reset.css");
+@import url("/styles/header.css");
+@import url("/styles/doutora.css");
+@import url("/styles/consultas.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+    --preto: #464646;
+    --cor-horas: #333333;
+    --cinza: #A3A3A3;
+    --branco: #FFFFFF;
+    --azul: #4894FF;
+    --laranja: #FFB050;
+    --fonte: 'Montserrat', sans-serif;
+    --fundo: #eedbe4;
+    --cinza-claro: #F6F6F6;
+    --cor-borda: #ECECEC;
+}
+
+body {
+    color: var(--preto);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: var(--fundo);
+}

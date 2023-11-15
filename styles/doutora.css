@@ -1,0 +1,31 @@
+.doutora {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 2em 1em 0 1em;
+    gap: 1em;
+}
+
+.doutora__foto {
+    padding: 0;
+    width: 10vh;
+}
+
+.doutora__foto-redonda {
+    border-radius: 50%;
+    max-width: 80%;
+    width: auto;
+    border: 0.5px solid var(--cinza);
+}
+
+.doutora__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.doutora__texto {
+    font-size: 0.875rem;
+    color: var(--cinza);
+}
